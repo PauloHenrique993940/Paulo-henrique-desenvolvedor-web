@@ -1,0 +1,94 @@
+.about{
+    text-align: center;
+}
+
+.experience {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.experience .experience-item {
+    margin-bottom: 30px;
+}
+
+.experience .company {
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 10px;
+}
+.project-category {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* opcional para responsividade */
+    justify-content: center; /* centraliza os cards */
+}
+
+.category-title{
+  font-size: 28px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #000000;
+  padding: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 16px;
+  padding: 10px;
+  text-align: justify;
+}
+.card{
+  height: 400px;
+}
+
+.card h3{
+  color: #ffffff;
+}
+.card p{
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 16px;
+  padding: 10px;
+  text-align: justify;
+
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.project-links .btn {
+  padding: 10px 18px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-links .btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
