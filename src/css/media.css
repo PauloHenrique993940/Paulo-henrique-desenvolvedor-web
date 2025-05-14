@@ -4,6 +4,39 @@
         text-align: center;
         padding-top: 40px;
     }
+    .hero-image img{
+        text-align: center;
+    }
+
+    .institution{
+        text-align: center;
+    }
+
+    .section-title{
+        text-align: center;
+    }
+
+    .about-text{
+        text-align: justify;
+    }
+
+    .certificate-item{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    .Certificados img {
+        margin-top: 40px;
+    }
+    .imageCertificado{
+        margin-top: 40px;
+    }
+
+    h1, h2, h3{
+        text-align: center;
+    }
 
     .hero-info {
         padding-right: 0;
@@ -32,6 +65,13 @@
     .imageCertificado{
         width: 100%;
     }
+    .Certificados{
+        display: flex;
+        flex-direction: column;
+    }
+    #Img1, #Img2{
+        width: 100%;
+    }
 
     nav ul li {
         margin-left: 0;
@@ -46,7 +86,7 @@
 
     .skill,
     .project-card {
-        width: 90%;
+        width: 100%;
     }
 
     .hero h1 {
@@ -71,6 +111,9 @@
     .contact-text {
         font-size: 1em;
         padding: 0 10px;
+    }
+    h1, h2, h3{
+        text-align: center;
     }
 }
 
