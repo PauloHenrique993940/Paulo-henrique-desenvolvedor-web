@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/about.css">
     <link rel="stylesheet" href="/src/css/media.css">
+    <link rel="stylesheet" href="/src/css/chatboot.css">
     <link rel="stylesheet" href="/src/css/certificado.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -31,7 +32,8 @@
         <nav class="container">
             <div class="logo">
                 <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <text x="15" y="60" font-family="Courier New, monospace" font-size="50" fill="#0a0a23">&lt;PH&gt;</text>
+                    <text x="15" y="60" font-family="Courier New, monospace" font-size="50"
+                        fill="#0a0a23">&lt;PH&gt;</text>
                 </svg>
             </div>
 
@@ -49,9 +51,13 @@
                 <h1>Paulo Henrique</h1>
                 <p class="profession">Front-end Developer / Web</p>
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/paulohenriquefranca/"><img src="/src/images/icones/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.webp" alt="LinkedIn"></a>
-                    <a href="https://github.com/PauloHenrique993940"><img src="/src/images/icones/github.png" alt="GitHub"></a>
-                    <a href="mailto:paulohenriqueferreirafranca2@gmail.com"><img src="/src/images/icones/email.png" alt="Email"></a>
+                    <a href="https://www.linkedin.com/in/paulohenriquefranca/"><img
+                            src="/src/images/icones/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.webp"
+                            alt="LinkedIn"></a>
+                    <a href="https://github.com/PauloHenrique993940"><img src="/src/images/icones/github.png"
+                            alt="GitHub"></a>
+                    <a href="mailto:paulohenriqueferreirafranca2@gmail.com"><img src="/src/images/icones/email.png"
+                            alt="Email"></a>
                 </div>
             </div>
             <div class="hero-image">
@@ -115,7 +121,8 @@
                     e práticas da metodologia Scrum para gerenciamento de projetos, incluindo as cerimônias, papéis e
                     artefatos do framework.
                 </p>
-                <img class="imageCertificado" src="/src/images/certificados/certificado.png" alt="Certificado Analise e Desenvolvimento de Sitema">
+                <img class="imageCertificado" src="/src/images/certificados/certificado.png"
+                    alt="Certificado Analise e Desenvolvimento de Sitema">
             </div>
             <div class="certificate-item">
                 <h3>Certificado em Curso de Programação em Full Stack</h3>
@@ -133,7 +140,7 @@
 
                 </div>
             </div>
-            
+
         </div>
     </section>
     <section id="experience" class="experience">
@@ -210,7 +217,8 @@
                 <h3>Ferramenta para testes</h3>
                 <div class="skills-grid">
                     <div class="skill"><i class="devicon-jest-plain colored"></i><span>Jest</span></div>
-                    <div class="skill"><img class="cypres" src="/src/images/icones/cypress.webp" alt="Cypress"></i><span>Cypress</span></div>
+                    <div class="skill"><img class="cypres" src="/src/images/icones/cypress.webp"
+                            alt="Cypress"></i><span>Cypress</span></div>
                 </div>
             </div>
         </div>
@@ -400,6 +408,29 @@
                 <button type="submit" class="button">Send Message</button>
             </form>
         </div>
+        <div class="chatbot-container">
+            <div class="chatbot-icon">
+                <img src="/src/images/chatboot.gif" alt="Chatbot">
+            </div>
+            <div class="chatbot-window">
+                <div class="chatbot-header">
+                    Olá! Como posso ajudar?
+                    <span class="chatbot-close">&times;</span>
+                </div>
+                <div class="chatbot-messages">
+                    <p class="chatbot-message user">Olá!</p>
+                    <p class="chatbot-message bot">Em que posso ser útil hoje?</p>
+                </div>
+                <div class="chatbot-input">
+                    <input type="text" id="chatbot-input-text" placeholder="Digite sua mensagem...">
+                    <button id="chatbot-send-button">Enviar</button>
+                </div>
+                <div class="chatbot-options">
+                    <button class="chatbot-option-button" data-action="email">Enviar por E-mail</button>
+                    <button class="chatbot-option-button" data-action="whatsapp">Enviar por WhatsApp</button>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="container">
@@ -407,6 +438,7 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="/src/js/chat.js"></script>
 </body>
 
 </html>
